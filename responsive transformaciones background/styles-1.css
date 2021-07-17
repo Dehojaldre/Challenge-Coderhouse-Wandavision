@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0; 
+    list-style-type: none;
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+@media screen and (min-width: 768px) { /*desde aca*/
+    #grid-header {
+        grid-template-columns: 1fr 2fr;
+        gap: 5px;
+    }
+
+    header{
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+    }
+
+    main{
+        grid-column: 1 / 4;
+        grid-row: 1 / 2
+    }
+}
+@media screen and (min-width: 425px) { /*hasta aca*/
+    #grid-header {
+        grid-template-columns: 1fr 1fr;
+        gap: 3px;
+    }
+
+    header{
+        grid-column: 1 / 5;
+        grid-row: 1 / 2;
+    }
+
+    main{
+        grid-column: 1 / 4;
+        grid-row: 1 / 2
+    }  
+}
+
+
+body{
+    background-image: url(img/background-photo1.jpg);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+#grid-area .header {
+	display: grid;
+	grid-template-rows: 143px;
+	grid-template-columns: 30% 70%;
+	height: 104vh;
+	grid-gap: 15px;
+}
+
+#grid.area .header img {
+    height: 283px;
+}
+
+
+
+#grid-area .header .menu {
+    text-align: left;
+    margin-left: 20px;
+    width: 70%;
+    display:flex ;
+    align-items: center; 
+}
+
+.menu ul {
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.menu ul li a {
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+
+
+      
+.box-model p {
+    color: black;
+    
+}
+
+
+
+.titulosdelaweb{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.episodios{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+}
+     
+.episodios ol li a {
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    }
+
+.box-model p {
+    color: black;
+  
+}
+
+#contactanos{
+    color:white;
+    font-size: 13px;
+    width: 43%;
+    height: 400px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    line-height: 0%;
+    margin: 4px;
+	padding: 0px;
+}
+
+
+   
+
+footer {
+    background-color:rgba(1, 50, 67, 0.7);
+    width:100%;
+    position:absolute;
+    bottom:0; 
+   /* height: 100px;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;     
+}
+
+footer img{
+    height: 60px;
+}
+
+
+
+
+    

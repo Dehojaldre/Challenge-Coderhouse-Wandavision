@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0; 
+    list-style-type: none;
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+#grid-header {
+    display: grid;
+    grid-template-columns: 40% 60%; 
+    grid-template-rows: 191px;
+    width: 102%;
+    height:100%;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 300px;
+	grid-template-rows: 221px;
+    border: solid black ;
+
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 88% 12%;
+    grid-template-rows: 76px;
+    align-content: right;
+}
+
+
+/*body{
+    background-image: url(img/background-photo1.jpg);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}*/
+
+
+
+.box-model{
+    padding: 11px;
+    background-color: rgba(255, 255, 255, 0.4); 
+    border-radius: 25px;  
+    margin-right: 150px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+    width: 43%;
+    min-height: 100px;    
+}
+      
+.box-model p {
+    color: black;
+    font-size: 15px;
+    
+}
+
+
+/*
+.titulosdelaweb{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.episodios{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+}
+     
+.episodios ol li a {
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    }
+
+
+#contactanos{
+    color:white;
+    font-size: 13px;
+    width: 43%;
+    height: 400px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    line-height: 0%;
+    margin: 4px;
+	padding: 0px;
+}
+
+
+   
+
+footer {
+    background-color:rgba(1, 50, 67, 0.7);
+    width:100%;
+    position:absolute;
+    bottom:0; 
+    height: 100px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;     
+}
+
+footer img{
+    height: 90px;
+}
+
+*/
+
+
+    
